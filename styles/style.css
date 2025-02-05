@@ -1,0 +1,249 @@
+html { height: 100%; }
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* NAVEGATION ------------------------------------------- */
+
+.navegation {
+    background-color: rgb(29, 29, 29);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navegation form {
+    display: flex;
+    gap: 55px;
+}
+
+.navegation a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+}
+
+.navegation a:hover {
+    color: white;
+}
+
+
+/* SECTION - CONTAINER PRINCIPAL --------------------------------- */
+
+.content {
+    position: relative;
+}
+
+.module-content1 {
+    padding-top: 20px;
+    background-image: url("/images/module-content.png");
+    height: 600px;
+    background-size: 1800px; /* Ajusta la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    padding: 30px;
+    padding-bottom: 200px;
+    margin-bottom: 15px;
+}
+
+.module-content1 h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.buttons {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.purchase-button {
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    font-size: 18px;
+    border-color: rgb(19, 19, 230);
+    color: rgb(19, 19, 230);
+    background-color: transparent;
+}
+
+.purchase-button:hover {
+    background-color: rgb(19, 19, 230);
+    color: white;
+}
+
+.info-button {
+    height: 50px;
+    width: 180px;
+    border-radius: 40px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: rgb(19, 19, 230);
+}
+
+.info-button:hover {
+    background-color: rgb(68, 68, 241);
+}
+
+.module-content2 {
+    background-image: url("/images/module-content2.png");
+    height: 600px;
+    background-size: 1800px; /* Ajusta la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.module-content2 h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.module-content3 {
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    background-size: 1800px; /* Ajusta la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.module-content3 img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.text-content3 {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -570px;
+    font-size: 25px;
+}
+
+.module-content4 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.section1 {
+    background-image: url("/images/Privacidad.jpg");
+    background-position: center;
+    height: 600px;
+    width: 600px;
+    background-size: 950px; /* Ajusta la imagen al contenedor */
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.section1 h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -360px;
+    font-size: 50px;
+}
+
+.section2 {
+    background-image: url("/images/Airpods.jpeg");
+    background-position: center;
+    height: 600px;
+    width: 600px;
+    background-size: 900px; /* Ajusta la imagen al contenedor */
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.section2 h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -340px;
+    font-size: 50px;
+}
+
+.section2 h3 {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -290px;
+    font-size: 30px;
+}
+
+.scroller {
+    padding: 1rem;
+    background-color: rgb(241, 241, 241);
+    box-shadow: rgb(112, 112, 112);
+    border-radius: 8px;
+    max-width: 1500px;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.scroller__inner {
+    display: flex;
+    padding-block: 1rem;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-align: x proximity;
+}
+
+.scroller__inner img {
+    scroll-snap-align: start;
+    height: 581px;
+    width: 1000px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.lista-pie {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.footer-list li {
+    color: rgb(85, 85, 85);
+}
+
+.span{
+    font-weight: bold;
+    color: black;
+}

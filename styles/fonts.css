@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("Fonts/SFProDisplay-Light.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("Fonts/SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("Fonts/SFProDisplay-Bold.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("Fonts/SFProDisplay-Heavy.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("Fonts/SfProDisplay-Black.ttf") format("truetype");
+    font-weight: 900;
+}
